@@ -1,0 +1,206 @@
+/* Import Fonts */
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("../assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+/* Primary Colors */
+/* gradient Colors */
+/* Neutral */
+/* text */
+/* Font and typography */
+/* Font weight */
+/* Margins */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 13px 9px 26px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  min-width: 375px;
+  width: 375px;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  justify-content: space-around;
+}
+.card.results {
+  font-size: 18px;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.card.results .title {
+  color: #cfc4fc;
+}
+.card.results .round-score {
+  background: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+  width: 175px;
+  height: 175px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card.results .round-score :first-child {
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+}
+.card.results .round-score :last-child {
+  color: #cfc4fc;
+}
+.card.results .information {
+  text-align: center;
+}
+.card.results .information .title {
+  font-size: 24px;
+  padding-bottom: 1rem;
+  color: white;
+}
+.card.results .information .desc {
+  margin-inline: 10%;
+  color: #cfc4fc;
+  font-size: 15px;
+}
+.card.summary {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 18px;
+  padding-inline: 5%;
+}
+.card.summary .title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.card.summary .score-table {
+  width: 100%;
+}
+.card.summary .line {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 10px;
+  padding: 12px 8px 12px 8px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+.card.summary .line .icon {
+  display: flex;
+}
+.card.summary .line :nth-child(2) {
+  text-align: start;
+  flex-grow: 1;
+}
+.card.summary .line.--color-reaction {
+  background-color: rgba(255, 87, 87, 0.1);
+}
+.card.summary .line.--color-reaction :nth-child(2) {
+  color: hsl(0, 100%, 67%);
+}
+.card.summary .line.--color-memory {
+  background-color: rgba(255, 176, 31, 0.1);
+}
+.card.summary .line.--color-memory :nth-child(2) {
+  color: hsl(39, 100%, 56%);
+}
+.card.summary .line.--color-verbal {
+  background-color: rgba(0, 189, 145, 0.1);
+}
+.card.summary .line.--color-verbal :nth-child(2) {
+  color: hsl(166, 100%, 37%);
+}
+.card.summary .line.--color-visual {
+  background-color: rgba(17, 37, 212, 0.1);
+  margin-bottom: 0;
+}
+.card.summary .line.--color-visual :nth-child(2) {
+  color: hsl(234, 85%, 45%);
+}
+.card.summary .line .score {
+  color: grey;
+}
+.card.summary .line .score bold {
+  color: black;
+  font-weight: 700;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-size: xx-large;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px 4px 12px 4px;
+  color: white;
+  border-radius: 20px;
+  background-color: hsl(224, 30%, 27%);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.text-thin {
+  font-weight: 200;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-extra-bold {
+  font-weight: 800;
+}
+
+* {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.grid-layout {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* For full-screen images on small screens *//*# sourceMappingURL=main.css.map */

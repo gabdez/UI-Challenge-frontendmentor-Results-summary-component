@@ -1,0 +1,55 @@
+/* Import Fonts */
+@font-face {
+    font-family: "Hanken Grotesk";
+    src: url("../assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+/* Primary Colors */
+$primary-red: hsl(0, 100%, 67%);
+$primary-yellow: hsl(39, 100%, 56%);
+$primary-teal: hsl(166, 100%, 37%);
+$primary-blue: hsl(234, 85%, 45%);
+
+/* gradient Colors */
+
+// background
+$gradient-slate-blue: hsl(252, 100%, 67%);
+$gradient-royal-blue: hsl(241, 81%, 54%);
+
+// circle
+$gradient-violet-blue: hsla(256, 72%, 46%, 1);
+$gradient-persian-blue: hsla(241, 72%, 46%, 0);
+
+/* Neutral */
+
+$neutral-white: hsl(0, 0%, 100%);
+$neutral-pale-blue: hsl(221, 100%, 96%);
+$neutral-light-lavender: hsl(241, 100%, 89%);
+$neutral-dark-blue: hsl(224, 30%, 27%);
+
+/* text */
+$text-grey: #cfc4fc;
+
+/* Font and typography */
+$body-font: "Hanken Grotesk", sans-serif;
+$normal-font-size: 15px;
+$paragraph-font-size: 18px;
+$big-font-size: 24px;
+$extra-big-font-size: 50px;
+
+/* Font weight */
+$font-thin: 200;
+$font-basic: 500;
+$font-bold: 700;
+$font-extra-bold: 800;
+
+/* Margins */
+$mb-1: 0.5rem;
+$mb-2: 1rem;
+$mb-3: 1.5rem;
+$mb-4: 2rem;
+$mb-5: 2.5rem;
+$mb-6: 3rem;
+
+$border-radius-xl: 30px;
+$background-opacity: 0.1;

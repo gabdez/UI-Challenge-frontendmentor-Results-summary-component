@@ -1,0 +1,7 @@
+.grid-layout {
+  @include grid();
+}
+
+.description {
+  @include flex-center;
+}

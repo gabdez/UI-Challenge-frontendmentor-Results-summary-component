@@ -48,8 +48,8 @@
 
     .round-score {
       background: linear-gradient($gradient-violet-blue, $gradient-persian-blue);
-      width: 175px;
-      height: 175px;
+      width: 150px;
+      height: 150px;
       border-radius: 100%;
       @include flex-center();
       flex-direction: column;
@@ -156,9 +156,11 @@ h1 {
   color: white;
   border-radius: 20px;
   background-color: $neutral-dark-blue;
+  border: 1px $neutral-dark-blue solid;
 }
 .btn:hover {
   cursor: pointer;
+  border: 1px $gradient-slate-blue solid;
   background: linear-gradient($gradient-slate-blue, $gradient-royal-blue);
 }
 .text-thin {

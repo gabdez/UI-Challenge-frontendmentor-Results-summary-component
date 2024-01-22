@@ -51,8 +51,8 @@
 }
 .card.results .round-score {
   background: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
-  width: 175px;
-  height: 175px;
+  width: 150px;
+  height: 150px;
   border-radius: 100%;
   display: flex;
   justify-content: center;
@@ -159,10 +159,12 @@ h1 {
   color: white;
   border-radius: 20px;
   background-color: hsl(224, 30%, 27%);
+  border: 1px hsl(224, 30%, 27%) solid;
 }
 
 .btn:hover {
   cursor: pointer;
+  border: 1px hsl(252, 100%, 67%) solid;
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
@@ -203,4 +205,34 @@ body {
   align-items: center;
 }
 
-/* For full-screen images on small screens *//*# sourceMappingURL=main.css.map */
+/* For full-screen images on small screens */
+@media screen and (max-width: 375px) {
+  .card-wrapper {
+    border-radius: 0px;
+    height: 100%;
+    align-items: normal;
+  }
+  .card {
+    min-height: 340px;
+  }
+  .card.results {
+    padding-top: 20px;
+    border-radius: 0px 0px 30px 30px;
+  }
+  .card.results .information {
+    padding-bottom: 10px;
+  }
+  .card.results .information .title {
+    padding-bottom: 0.5rem;
+  }
+  .card.summary {
+    border-radius: 0px 0px 0px 0px;
+    padding-inline: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .round-score {
+    max-width: 125px;
+    max-height: 125px;
+  }
+}/*# sourceMappingURL=main.css.map */
